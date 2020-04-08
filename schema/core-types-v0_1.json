@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "https://symphonyosf.github.io/symphony-object/schema/core-types-v0_1.json",
+    "id": "https://symphonyosf.github.io/oss-object-schema/schema/core-types-v0_1.json",
     "title": "Core Datatypes for Symphony Structured Objects aka EntityJSON",
     "org.symphonyoss.object.attribute.string": {
         "description": "An unbounded Unicode string value.",

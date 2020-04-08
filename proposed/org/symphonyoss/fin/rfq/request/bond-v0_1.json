@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://symphonyosf.github.io/symphony-object/proposed/org/symphonyoss/fin/rfq/request/bond-v0_1.json",
+  "id": "https://symphonyosf.github.io/oss-object-schema/proposed/org/symphonyoss/fin/rfq/request/bond-v0_1.json",
   "title": "An RFQ Request for a Bond",
   "type": "object",
   "allOf": [
     
     {
-      "$ref": "https://symphonyosf.github.io/symphony-object/schema/structured-object-v0_1.json"
+      "$ref": "https://symphonyosf.github.io/oss-object-schema/schema/structured-object-v0_1.json"
     }
   ],
       "properties": {
@@ -23,16 +23,16 @@
         "instrument": {
           "type": "array",
             "items": {
-                "$ref": "https://symphonyosf.github.io/symphony-object/schema/definitions-v0_1.json#/org.symphonyoss.object.id"
+                "$ref": "https://symphonyosf.github.io/oss-object-schema/schema/definitions-v0_1.json#/org.symphonyoss.object.id"
             }
         },
         "tradeDate": {
           "description": "The required date of the trade.",
-          "$ref": "https://symphonyosf.github.io/symphony-object/schema/core-types-v0_1.json#/org.symphonyoss.object.attribute.time.day"
+          "$ref": "https://symphonyosf.github.io/oss-object-schema/schema/core-types-v0_1.json#/org.symphonyoss.object.attribute.time.day"
         },
         "settlementDate": {
           "description": "The required date for settlement of the trade.",
-          "$ref": "https://symphonyosf.github.io/symphony-object/schema/core-types-v0_1.json#/org.symphonyoss.object.attribute.time.day"
+          "$ref": "https://symphonyosf.github.io/oss-object-schema/schema/core-types-v0_1.json#/org.symphonyoss.object.attribute.time.day"
         },
         "faceValue": {
           "description": "The amount or value of the trade that is offiered. In the currency of the instrument.",
@@ -61,24 +61,24 @@
             },
             "maturityDate": {
               "description": "The maturity date of the bond.",
-              "$ref": "https://symphonyosf.github.io/symphony-object/schema/core-types-v0_1.json#/org.symphonyoss.object.attribute.time.day"
+              "$ref": "https://symphonyosf.github.io/oss-object-schema/schema/core-types-v0_1.json#/org.symphonyoss.object.attribute.time.day"
             },
             "currency": {
               "description": "The currency of the bond.",
-              "$ref": "https://symphonyosf.github.io/symphony-object/schema/org/symphonyoss/fin/types-v0_1.json#/org.symphonyoss.fin.ccy.id.iso4217"
+              "$ref": "https://symphonyosf.github.io/oss-object-schema/schema/org/symphonyoss/fin/types-v0_1.json#/org.symphonyoss.fin.ccy.id.iso4217"
             },
             "issuer": {
               "description": "The issuer of the required bond.",
               "type": "array",
               "items": {
-                  "$ref": "https://symphonyosf.github.io/symphony-object/schema/definitions-v0_1.json#/org.symphonyoss.object.id"
+                  "$ref": "https://symphonyosf.github.io/oss-object-schema/schema/definitions-v0_1.json#/org.symphonyoss.object.id"
               }
             },
             "ratings": {
               "description": "Description of ratings for the required bond.",
               "type": "array",
               "items": {
-                  "$ref": "https://symphonyosf.github.io/symphony-object/schema/definitions-v0_1.json#/org.symphonyoss.object.id"
+                  "$ref": "https://symphonyosf.github.io/oss-object-schema/schema/definitions-v0_1.json#/org.symphonyoss.object.id"
               }
             }
           }

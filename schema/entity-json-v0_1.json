@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "https://symphonyosf.github.io/symphony-object/schema/entity-json-v0_1.json",
+    "id": "https://symphonyosf.github.io/oss-object-schema/schema/entity-json-v0_1.json",
     "title": "A collection of Symphony Structured Objects aka EntityJSON",
     "properties": {
         "$schema": {

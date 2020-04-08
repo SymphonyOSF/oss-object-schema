@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "https://symphonyosf.github.io/symphony-object/schema/structured-object-v0_1.json",
+    "id": "https://symphonyosf.github.io/oss-object-schema/schema/structured-object-v0_1.json",
     "title": "A single Symphony Structured Object",
     "type": "object",
     "properties": {
@@ -24,7 +24,7 @@
             "title": "The object Id",
             "type": "array",
             "items": {
-                "$ref": "https://symphonyosf.github.io/symphony-object/schema/definitions-v0_1.json#/org.symphonyoss.object.id"
+                "$ref": "https://symphonyosf.github.io/oss-object-schema/schema/definitions-v0_1.json#/org.symphonyoss.object.id"
             }
         }
     },

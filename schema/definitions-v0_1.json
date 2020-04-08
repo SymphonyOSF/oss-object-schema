@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "https://symphonyosf.github.io/symphony-object/schema/definitions-v0_1.json",
+	"id": "https://symphonyosf.github.io/oss-object-schema/schema/definitions-v0_1.json",
 	"title": "Standard definitions for Symphony Structured Objects aka EntityJSON",
 	"org.symphonyoss.object.attribute.type": {
 		"description": "An attribute type identifier.",
