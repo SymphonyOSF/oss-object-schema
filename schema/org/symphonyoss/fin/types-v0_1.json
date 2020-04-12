@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "https://symphonyosf.github.io/oss-object-schema/schema/core-types-v0_1.json",
+    "id": "https://schemas.oss.symphony.com/schema/core-types-v0_1.json",
     "title": "Financial Datatypes for Symphony Structured Objects aka EntityJSON",
     
     "org.symphonyoss.fin.ccy.id.iso4217": {

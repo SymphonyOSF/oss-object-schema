@@ -1,6 +1,6 @@
 {     
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://symphonyosf.github.io/oss-object-schema/schema/org/symphonyoss/country-v0_1.json",
+  "id": "https://schemas.oss.symphony.com/schema/org/symphonyoss/country-v0_1.json",
   "title": "Country Attribute Types for Symphony Structured Objects aka EntityJSON",
   
   "org.symphonyoss.country.iso3166-1-alpha2-exceptional": {
