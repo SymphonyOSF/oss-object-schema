@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$schema": "https://schemas.oss.symphony.com/schema/org/json-schema/draft-04/schema.json#",
   "id": "https://schemas.oss.symphony.com/proposed/org/symphonyoss/fin/rfq/request/bond-v0_1.json",
   "title": "An RFQ Request for a Bond",
   "type": "object",
